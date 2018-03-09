@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SegmentedTabControl</AssemblyName>
+    <RootNamespace>SegmentedTabControl</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Segmented Control for Xamarin Forms</Description>
+    <Authors>Alex Rainman, DrQS</Authors>
+    <PackageProjectUrl>https://github.com/DrQwertySilence/SegmentedTabControl</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/DrQwertySilence/SegmentedTabControl/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/DrQwertySilence/SegmentedTabControl</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
+  </ItemGroup>
+
+</Project>
