@@ -44,23 +44,22 @@ xmlns:controls="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=Segmented
 ```
 private void SegmentedControl_ItemTapped(object sender, int key)
 {
-	
-	switch (e)
-	{
-		case 0:
-			Console.WriteLine($"Selected: {key})";
-			break;
-		case 1:
-			Console.WriteLine($"Selected: {key})";
-			break;
-		case 2:
-			Console.WriteLine($"Selected: {key})";
-			break;
-		// If set to -1 then NO segments will be selected
-		default:
-			Console.WriteLine($"No Segments Selected: {key}";
-			break;
-	}
+  switch (key)
+  {
+    case 0:
+      Console.WriteLine($"Selected: {key}");
+      break;
+    case 1:
+      Console.WriteLine($"Selected: {key}");
+      break;
+    case 2:
+      Console.WriteLine($"Selected: {key}");
+      break;
+    // If set to -1 then NO segments will be selected
+    default:
+      Console.WriteLine($"No Segments Selected: {key}");
+      break;
+  }
 }
 ```
 
